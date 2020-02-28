@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Спецификация */
+body{
+	font-family: 'Cuprum', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+/* Первый экран */
+header{
+    background: url(../img/header-img.png) no-repeat center;
+    height: 752px;
+    font-family: 'Cuprum';
+}
+.menu{
+	text-align: center;
+    margin-top: 50px;
+}
+.menu__item{
+    margin: 0 87.5px;
+}
+.menu__item a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 49px;
+}
+.menu__item a:hover{
+	color: #f94848;
+	transition: all 0.1s ease;
+}
+.offer{
+	float: right;
+    text-align: center;
+    margin-top: 150px;
+}
+.offer__title{
+    color: #fff;
+    font-size: 72px;
+    line-height: 57px;
+}
+.header__line{
+    padding-top: 35px;
+	padding-bottom: 35px;
+}
+.offer__text{
+	color: #f94848;
+	font-size: 24px;
+}
+/* Второй экран */
+
+.section__line1{
+	text-align: center;
+	margin-top: 50px;
+}
+.section1__text {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	margin-top: 50px;
+	line-height: 35px;
+}
+/* Третий Экран */
+#section2{
+	height: 748px;
+	background: url(../img/2section-bg-img.png) no-repeat center / cover;
+	margin-top: 25px;
+}
+.section2__text{
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto';
+	font-style: italic;
+	margin-top: 210px;
+	line-height: 40px;
+}
+/* Четвертый экран */
+.section3__text{
+    text-align: center;
+    margin-top: 50px;
+}
+.section__text3{
+	font-family: 'Roboto';
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 300;
+	line-height: 40px;
+}
+.section__line2{
+	margin-top: 50px;
+	text-align: center;
+}
+/* Пятый экран */
+#footer{
+	height: 215px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	background: url(../img/footer-img.png);
+	margin-top: 50px;
+}
+.footer{
+	margin-top: 90px;
+	float: right;
+	margin-right: 60px;
+}
+.footer a{
+	font-size: 14px;
+	color: #fff;
+	margin: 0 31px;
+	margin-top: 65px;
+}
+.footer a:hover{
+	color: #f94848;
+	transition: all 0.1s ease;
+}

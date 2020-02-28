@@ -1,0 +1,119 @@
+/* Спецификация */
+body{
+	font-family: 'Cuprum', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+/* Первый экран */
+header{
+	font-family: Cuprum;
+	background: url(../img/header_img.png) no-repeat center;
+	height: 641px; 
+}
+.menu{
+    text-align: center;
+    margin-top: 50px;
+}
+.menu__item{
+    margin: 0 87.5px;
+}
+.menu__item a{
+	font-size: 49px;
+	color: #fff;
+	text-decoration: none;
+}
+.menu__item a:hover{
+	color: #f94848;
+	transition: all 0.1s ease;
+}
+.offer{
+    margin-top: 130px;
+    display: block;
+    float: right;
+}
+.offer__title{
+	font-size: 62px;
+	color: #fff;
+	text-align: center;
+	line-height: 51px;
+
+}
+.line{
+	display: block;
+	margin: auto;
+	padding-top: 35px;
+	padding-bottom: 35px; 
+}
+.offer__text{
+	color: #f94848;
+	text-align: center;
+	font-size: 24px;
+}
+/* Второй экран */
+.title{
+    color: #000; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sectionline{
+	display: block;
+	margin: auto;
+}
+.title__main{
+    font-family: 'Cuprum';
+    font-size: 49px;
+    line-height: 38px;
+    margin-top: 80px;
+}
+.title__text{
+	font-family: 'Roboto', sans-serif;
+    font-size: 41px;
+    font-weight: 300;
+    color: #212121;
+    line-height: 32px;
+    margin-top: 80px;
+}
+/* Третий Экран */
+footer{
+	font-family: 'Roboto', sans-serif;
+	background: url(../img/footer_img.png) no-repeat center / cover;
+	height: 648px;
+}
+.feature{
+	text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.footerline{
+	display: block;
+	margin: auto;
+}
+.feature__item{
+	text-align: left;
+	color: #fff;
+	font-size: 36px;
+	line-height: 45px;
+	margin-top: 130px;
+	padding-left: 90px;
+}
+.footer{
+	float: right;
+	margin-right: 60px;
+}
+.footer a{
+	font-size: 14px;
+	color: #fff;
+	margin: 0 31px;
+	margin-top: 65px;
+}
+.footer a:hover{
+	color: #f94848;
+	transition: all 0.1s ease;
+}
